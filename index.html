@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chronotank</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+</head>
+<body>
+  <header>
+    <img src="logo.svg" alt="Chronotank Logo" class="logo">
+    <div class="lang-switch">
+      <button onclick="setLanguage('de')">DE</button>
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="content" class="fade">
+      <h1 id="title">Zeit verlängern, Leben verlängern.</h1>
+      <p id="text">
+        Bei Chronotank erforschen wir innovative Ansätze zur Unterstützung von Langlebigkeit, Vitalität 
+        und besserer Lebensqualität — insbesondere für Menschen mit chronischen Erkrankungen und im hohen Alter.
+      </p>
+      <a id="contact" href="mailto:smith.john.smith.2015@gmail.com" class="btn">📩 Kontakt</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Chronotank</p>
+  </footer>
+
+  <script>
+    const content = {
+      de: {
+        title: "Zeit verlängern, Leben verlängern.",
+        text: "Bei Chronotank erforschen wir innovative Ansätze zur Unterstützung von Langlebigkeit, Vitalität und besserer Lebensqualität — insbesondere für Menschen mit chronischen Erkrankungen und im hohen Alter.",
+        contact: "📩 Kontakt"
+      },
+      en: {
+        title: "Extend time, extend life.",
+        text: "At Chronotank, we explore innovative approaches to support longevity, vitality, and better quality of life — especially for those with chronic conditions and advanced age.",
+        contact: "📩 Contact us"
+      }
+    };
+
+    function setLanguage(lang) {
+      document.getElementById("content").classList.remove("show");
+      setTimeout(() => {
+        document.getElementById("title").innerText = content[lang].title;
+        document.getElementById("text").innerText = content[lang].text;
+        document.getElementById("contact").innerText = content[lang].contact;
+        document.getElementById("content").classList.add("show");
+      }, 300);
+    }
+
+    window.onload = () => {
+      document.getElementById("content").classList.add("show");
+    };
+  </script>
+</body>
+</html>
