@@ -13,6 +13,7 @@
       background-attachment: fixed;
     }
 
+    /* Semi-transparent hourglass background */
     body::before {
       content: "";
       position: fixed;
