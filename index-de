@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ChronoTank – Extend Your Time</title>
+  <title>ChronoTank – Verlängere deine Zeit</title>
   <style>
     body {
       margin: 0;
@@ -13,7 +13,6 @@
       background-attachment: fixed;
     }
 
-    /* Semi-transparent hourglass background */
     body::before {
       content: "";
       position: fixed;
@@ -104,44 +103,44 @@
 </head>
 <body>
   <div class="lang-switch">
-    <a href="index-de.html">DE</a>
+    <a href="index.html">EN</a>
   </div>
 
   <div class="container">
     <header>
       <img src="clepsidratank.jpeg" alt="ChronoTank Logo">
       <h1>ChronoTank</h1>
-      <p>Extending your time, fueling your future.</p>
+      <p>Wir verlängern deine Zeit, wir geben deiner Zukunft Energie.</p>
     </header>
 
     <section>
-      <h2>Who we are</h2>
-      <p>With more than 50 years of tradition, ChronoTank brings innovation and dedication to one essential goal: giving people more time. We combine expertise with vision to help you extend life and energy.</p>
+      <h2>Wer wir sind</h2>
+      <p>Mit mehr als 50 Jahren Tradition bringt ChronoTank Innovation und Hingabe für ein wesentliches Ziel: den Menschen mehr Zeit zu schenken. Wir verbinden Erfahrung mit Vision, um Leben und Energie zu verlängern.</p>
     </section>
 
     <section>
-      <h2>What we do</h2>
-      <p>We provide solutions that enhance longevity, resilience, and vitality. Our projects are built on hope, trust, and progress.</p>
+      <h2>Was wir tun</h2>
+      <p>Wir bieten Lösungen, die Langlebigkeit, Widerstandskraft und Vitalität fördern. Unsere Projekte basieren auf Hoffnung, Vertrauen und Fortschritt.</p>
     </section>
 
     <section>
-      <h2>Why ChronoTank?</h2>
-      <p>Because time is the most precious resource. We help you gain it, protect it, and make it meaningful.</p>
+      <h2>Warum ChronoTank?</h2>
+      <p>Weil Zeit die wertvollste Ressource ist. Wir helfen dir, sie zu gewinnen, zu schützen und sinnvoll zu nutzen.</p>
     </section>
 
     <section>
-      <h2>Contact us</h2>
+      <h2>Kontakt</h2>
       <form action="https://formsubmit.co/contact@chronotank.com" method="POST">
-        <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="Your email" required>
-        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
-        <button type="submit">Send Message</button>
+        <input type="text" name="name" placeholder="Dein Name" required>
+        <input type="email" name="email" placeholder="Deine E-Mail" required>
+        <textarea name="message" rows="5" placeholder="Deine Nachricht" required></textarea>
+        <button type="submit">Nachricht senden</button>
       </form>
-      <p>or email us directly at <strong>contact@chronotank.com</strong></p>
+      <p>oder schreibe uns direkt an <strong>contact@chronotank.com</strong></p>
     </section>
 
     <footer>
-      &copy; 2025 ChronoTank. All rights reserved.
+      &copy; 2025 ChronoTank. Alle Rechte vorbehalten.
     </footer>
   </div>
 </body>
